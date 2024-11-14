@@ -70,7 +70,7 @@ window.addEventListener('DOMContentLoaded', event => {
         var divElement = document.getElementById("imageDiv");
         
         // Set the image as the background of the div
-        divElement.style.backgroundImage = "url('C:/Users/samyu/Documents/samyuktha-harshini-p-main/samyuktha-harshini-p-main/assets/img/rock cllimbing.jpeg')";
+        divElement.style.backgroundImage = "url('assets/img/rock cllimbing.jpeg')";
       });
     // To open the certifications
     /*document.getElementById('comptia').addEventListener('click', function() {
