@@ -143,6 +143,46 @@
         <button class="banner-close" onclick="closeBanner()">✖</button>
     </div>
         <!-- Page Content-->
+       <style>
+        .social-link {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        .linkedin-link {
+            background-color: #0077b5;
+            color: white;
+            border: 2px solid #0077b5;
+        }
+
+        .linkedin-link:hover {
+            background-color: transparent;
+            color: #0077b5;
+        }
+
+        .tryhackme-link {
+            background-color: #212C42;
+            color: white;
+            border: 2px solid #212C42;
+        }
+
+        .tryhackme-link:hover {
+            background-color: transparent;
+            color: #212C42;
+        }
+
+        .social-link i {
+            margin-right: 8px;
+        }
+    </style>
+
         <div class="container-fluid p-0">
             <!-- About-->
             <section class="resume-section" id="about">
@@ -163,15 +203,16 @@
                         
                         <p class="lead mb-5"> Aside from my technical skills, I bring a collaborative spirit to every team I join and am constantly looking for ways to enrich my skill set. If you're looking for a dedicated security professional with a genuine love for learning and a proactive approach to challenges, let’s connect!</p>
                     
-                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="Linkedin" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/samyuktha-padmanabhuni">Linkedin</a></div>
+                     <div class="social-links-container">
+        <a href="https://www.linkedin.com/in/samyuktha-padmanabhuni" class="social-link linkedin-link">
+            <i class="fab fa-linkedin"></i>LinkedIn
+        </a>
         
-                    <a href="https://tryhackme.com/p/ipseccodeybogey" class="uppercase-link">TRY HACK ME</a>
+        <a href="https://tryhackme.com/p/ipseccodeybogey" class="social-link tryhackme-link">
+            <i class="fas fa-terminal"></i>Try Hack Me
+        </a>
+    </div>
 
-                    <!--<div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/samyuktha-padmanabhuni"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                    </div>-->
-                </div>
             </section>
             <hr class="m-0" />
             <!-- Experience-->
